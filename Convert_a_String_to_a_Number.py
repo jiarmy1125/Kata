@@ -3,11 +3,9 @@
 # stringToNumber("1405") == 1405
 # stringToNumber("-7"  ) == -7
 
-def stringToNumber(s):
+def string_to_number(s):
     s = int(s)
     print(s)
+    return s
 
-
-
-stringToNumber("1234")
-print(type("1234"))
+string_to_number("1234")
