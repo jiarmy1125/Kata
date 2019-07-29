@@ -7,16 +7,16 @@ def find_outlier(integers):
     odd=[]
     for i in integers:
         if (i%2) == 0:
-            odd.append(i)
+            even.append(i)
         
         else:
-            even.append(i)
+            odd.append(i)
     
-    if len(even) == 1:
-        return even[0]
-    
-    elif len(odd) == 1:
+    if len(odd) == 1:
         return odd[0]
+    
+    elif len(even) == 1:
+        return even[0]
 
 print(find_outlier([2, 4, 6, 8, 10, 3]))
 print(find_outlier([2, 4, 0, 100, 4, 11, 2602, 36])) 
