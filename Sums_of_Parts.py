@@ -10,12 +10,13 @@ def parts_sums(ls):
     y=[]
     ls.append(0)
     ls_1=ls[::-1]
-    # print(ls_1)
+    print(ls_1)
 
     sum=0
     for i in range(len(ls_1)):
         # print(ls_1[i])
         sum += ls_1[i]
+        print(sum)
         # print(sum)
         y.append(sum)
         # y.pop(0)
