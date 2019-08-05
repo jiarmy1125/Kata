@@ -9,6 +9,7 @@ def count_sheep(n):
         sheep='sheep...'
         word += str(i)+ " " +sheep
     print(word)
+    return word
 
 
 
