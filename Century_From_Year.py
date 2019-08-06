@@ -7,10 +7,15 @@
 
 def century(year):
     if (year%100) ==0:
-        print("yes",year//100)
+        yes = year//100
+        print(yes)
+        return yes
+        
 
     else:
-        print((year//100)+1)
+        no = (year//100)+1
+        print(no)
+        return no
 
 
 
