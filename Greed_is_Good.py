@@ -81,6 +81,3 @@ print(score(  [2,2,2,2,6] ))
 #  Three 2's =>  200 points
 #  One   1   =>  100 points-----------
 #  One   5   =>   50 point
-
-
-
