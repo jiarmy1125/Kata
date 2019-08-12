@@ -40,9 +40,6 @@ def group_by_commas(n):
             return n[0]+n[1]+n[2]+a
 
 
-
-
-
 group_by_commas(1),         '1'
 group_by_commas(100),       '100'
 group_by_commas(1000),      '1,000'
