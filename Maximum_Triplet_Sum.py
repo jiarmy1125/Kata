@@ -7,15 +7,15 @@
 
 def max_tri_sum(numbers):
     set_num=set(numbers)
-    print(set_num)
+    # print(set_num)
     reverse_num=sorted(set_num, reverse=True)
-    print(reverse_num)
+    # print(reverse_num)
 
     sum = 0
     # for num in range(len(reverse_num)):
     sum = reverse_num[0] + reverse_num[1] + reverse_num[2]
 
-    print(sum)
+    # print(sum)
     return sum
 
 max_tri_sum([3,2,6,8,2,3]),17
