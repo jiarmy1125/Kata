@@ -6,16 +6,14 @@
 
 def minimum_steps(numbers, value):
     sort_num=sorted(numbers)
-    print(sort_num)
-
-    
+    # print(sort_num)
 
     sum = 0
     x=0 
     for n in range(len(sort_num)):
         sum += sort_num[n]
         if sum >= value:
-            print(n,sort_num[n],sum)
+            # print(n,sort_num[n],sum)
             x += n
             break
 
