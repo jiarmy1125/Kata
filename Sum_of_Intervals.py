@@ -13,10 +13,10 @@ def sum_of_intervals(intervals):
         for i in range(tu[0],tu[1]):
             x.append(i)
     
-    print(x)
+    # print(x)
 
     x=set(x)    
-    print(x)
+    # print(x)
     total=len(x)
     print(total)
     return total
